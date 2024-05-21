@@ -1,9 +1,20 @@
 import React from 'react'
-import './Header'
+import './Header.css'
 
 function Header() {
   return (
-    <div>Header</div>
+    <div>
+<div className="headermaincon">
+    <div className="headerlogo">ss</div>
+    <div className="Headermaintextlogo">EMCREATIONS</div>
+    <div className="Headerrightside">
+        <li>Home</li>
+    </div>
+   
+</div>
+
+
+    </div>
   )
 }
 
