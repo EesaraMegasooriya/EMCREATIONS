@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Home.css"
 import {useTypewriter, Cursor} from 'react-simple-typewriter';
+import Mypic from '../src/assets/me.jpg'
 
 function Home() {
   const [text] = useTypewriter({
@@ -28,7 +29,7 @@ function Home() {
     </div>
     
   <div className="hommmainabt">
-    <img className='abtmyimghome' src='https://eesaramegasooriya.github.io/EMCreations/emcreations/src/assets/me.jpg'></img>
+    <img className='abtmyimghome' src={Mypic}></img>
     <div className="homabouttxt">I’m Eesara Megasooriya, a passionate frontend developer from SriLanka. I’m currently an undergraduate at SLIIT, where I'm deepening my knowledge in Web Development, specifically learning React Js. I also have a talent for editing videos and have completed several projects in this area. You can contact me for class videos, YouTube videos, or functional video editing. I thrive in dynamic environments that allow me to apply my skills and expertise while continuously learning and growing.</div>
   </div>
 

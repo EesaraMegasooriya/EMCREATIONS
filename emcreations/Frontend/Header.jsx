@@ -1,12 +1,13 @@
 import React from 'react'
 import './Header.css'
+import Logo from '../src/assets/E-tra.png'
 
 function Header() {
   return (
     <div>
 <div className="headermaincon">
     <div className="headerlogo">
-      <img src="./src/assets/E-tra.png" className='Headerlogoclass'></img>
+      <img src={Logo} className='Headerlogoclass'></img>
     </div>
     <div className="Headermaintextlogo">EMCREATIONS</div>
     <div className="Headerrightside">
