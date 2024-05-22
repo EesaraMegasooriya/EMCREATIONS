@@ -62,7 +62,7 @@ main {
 @media (max-width: 768px) {
     .headermaincon {
         padding: 10px;
-        flex-direction: column;
+        
         align-items: center;
         height: auto;
     }
