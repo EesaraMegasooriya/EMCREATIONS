@@ -32,7 +32,7 @@ function Home() {
     <div className="homabouttxt">I’m Eesara Megasooriya, a passionate frontend developer from SriLanka. I’m currently an undergraduate at SLIIT, where I'm deepening my knowledge in Web Development, specifically learning React Js. I also have a talent for editing videos and have completed several projects in this area. You can contact me for class videos, YouTube videos, or functional video editing. I thrive in dynamic environments that allow me to apply my skills and expertise while continuously learning and growing.</div>
   </div>
 
-  
+  dd
     </div>
   )
 }
