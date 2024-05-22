@@ -11,10 +11,11 @@
 .headermaincon {
     position: fixed;
     top: 0;
+    
     width: 100%;
-    padding: 10px 0 0 60px;
+    padding: 0px 0 0 60px;
     background-color: #050040;
-    height: 80px;
+    height: 90px;
     justify-content: space-between;
     display: flex;
     align-items: center;
@@ -25,7 +26,7 @@
 .Headermaintextlogo {
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
-    padding-top: 8px;
+    padding-top: 0px;
     font-weight: 600;
     background: linear-gradient(90deg, #00a5dd, #ffffff, #00a5dd);
     background-size: 200% 200%;
@@ -44,19 +45,18 @@
 }
 
 .Headerlogoclass {
+    margin-top: 40px;
+    margin-left: 10px;
     width: 120px;
 }
 
 .Headerrightside {
-    padding-top: 17px;
+    padding-top: 0px;
     color: white;
     padding-right: 40px;
 }
 
-main {
-    margin-top: 80px;
-    padding: 20px;
-}
+
 
 /* Media queries for responsive design */
 @media (max-width: 768px) {
@@ -64,18 +64,19 @@ main {
         padding: 10px;
         
         align-items: center;
-        height: auto;
+        height: 9%;
     }
     .Headermaintextlogo {
         font-size: 24px;
         padding-top: 0;
     }
     .Headerlogoclass {
+        margin-top: 20px;
         width: 100px;
     }
     .Headerrightside {
-        padding-top: 10px;
-        padding-right: 0;
+        padding-top: 0px;
+        padding-right: 3px;
     }
 }
 
