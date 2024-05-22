@@ -6,7 +6,7 @@ function Header() {
     <div>
 <div className="headermaincon">
     <div className="headerlogo">
-      <img src="./src/assets/E-tra.png" className='Headerlogoclass'></img>
+      <img src="../src/assets/E-tra.png" className='Headerlogoclass'></img>
     </div>
     <div className="Headermaintextlogo">EMCREATIONS</div>
     <div className="Headerrightside">
