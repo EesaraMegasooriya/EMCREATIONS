@@ -1,22 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
-*{
+* {
     padding: 0px;
     margin: 0px;
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu', sans-serif;
 }
 
-.headermaincon{
-    padding-top: 10px;
-    background-color: rgb(170, 170, 170);
-    height: 400px;
-    justify-content: center;
-    gap: 50px;
+.headermaincon {
+    padding-left: 30px;
+    padding: 10px;
+    background-color: #12232E;
+    height: 60px;
+    justify-content: space-between;
+    gap: 500px;
     display: flex;
 }
 
-.Headermaintextlogo{
-    font-family: "Ubuntu";
+.Headermaintextlogo {
+    font-family: 'Ubuntu', sans-serif;
     font-size: 30px;
+    padding-top: 8px;
     font-weight: 600;
+    background: linear-gradient(90deg, #00a5dd, #ffffff, #00a5dd);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-animation 3s linear infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0;
+    }
+
+    100% {
+        background-position: 470px;
+
+    }
+}
+
+.Headerlogoclass {
+    width: 120px;
+}
+
+.Headerrightside {
+    
+    padding-top: 17px;
+    color: white;
+    padding-right: 40px;
+    
 }

@@ -5,10 +5,13 @@ function Header() {
   return (
     <div>
 <div className="headermaincon">
-    <div className="headerlogo">ss</div>
+    <div className="headerlogo">
+      <img src="../src/assets/E-tra.png" className='Headerlogoclass'></img>
+    </div>
     <div className="Headermaintextlogo">EMCREATIONS</div>
     <div className="Headerrightside">
-        <li>Home</li>
+        Home
+        AboutUs
     </div>
    
 </div>
