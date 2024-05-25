@@ -6,7 +6,7 @@ const projects = [
     title: 'WELLWORN',
     description: "This is a group project for an online fashion store, developed for a real client using the MERN stack. It showcases our team's collaborative and technical skills.",
     imageUrl: 'https://i.ibb.co/BtWNJnD/Untitled-design.png',
-    link: 'https://wellworn.example.com'
+    link: 'https://wellworn.lk/'
   },
   {
     title: 'BOBBY',
@@ -34,26 +34,28 @@ function MyProjects() {
     <div>
       <div className="mpmtitle">My Projects</div>
       <div className="projects-container">
-        {projects.map((project, index) => (
-          <div className="project-card" key={index}>
-            <img src={project.imageUrl} alt={project.title} className="project-image" />
-            <div className="project-title">{project.title}</div>
-            <div className="project-overlay">
-              <div className="project-description">{project.description}</div>
-              <a href={project.link} target="_blank" rel="noopener noreferrer">
-                <button className="view-more-button">View More</button>
-              </a>
+        <div className="projects-scroll">
+          {projects.map((project, index) => (
+            <div className="project-card" key={index}>
+              <img src={project.imageUrl} alt={project.title} className="project-image" />
+              <div className="project-title">{project.title}</div>
+              <div className="project-overlay">
+                <div className="project-description">{project.description}</div>
+                <a href={project.link} target="_blank" rel="noopener noreferrer">
+                  <button className="view-more-button">View More</button>
+                </a>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
       <div className="allprojcon">
-      All my projects are published on GitHub. Click the button below to view my GitHub profile.
-      <p>
-      <a href="https://github.com/EesaraMegasooriya" target="_blank" rel="noopener noreferrer" className="github-button">
-          View My GitHub Profile
-      </a>
-      </p>
+        All my projects are published on GitHub. Click the button below to view my GitHub profile.
+        <p>
+          <a href="https://github.com/EesaraMegasooriya" target="_blank" rel="noopener noreferrer" className="github-button">
+            View My GitHub Profile
+          </a>
+        </p>
       </div>
     </div>
   )
