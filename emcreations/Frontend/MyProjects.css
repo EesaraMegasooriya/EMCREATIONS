@@ -105,6 +105,36 @@
     opacity: 0;
 }
 
+.allprojcon{
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 150px;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.github-button {
+    
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .github-button:hover {
+    background-color: #45a049;
+  }
+
+
+
 /* Responsive design improvements */
 @media (max-width: 1200px) {
     .project-card {

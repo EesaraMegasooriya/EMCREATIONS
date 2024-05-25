@@ -47,7 +47,14 @@ function MyProjects() {
           </div>
         ))}
       </div>
-      
+      <div className="allprojcon">
+      All my projects are published on GitHub. Click the button below to view my GitHub profile.
+      <p>
+      <a href="https://github.com/EesaraMegasooriya" target="_blank" rel="noopener noreferrer" className="github-button">
+          View My GitHub Profile
+      </a>
+      </p>
+      </div>
     </div>
   )
 }
