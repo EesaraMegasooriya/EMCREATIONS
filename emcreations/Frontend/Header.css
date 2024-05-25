@@ -66,6 +66,7 @@
 
 .menu-icon {
     display: none;
+    margin-right: 10px;
     font-size: 30px;
     color: white;
     cursor: pointer;
