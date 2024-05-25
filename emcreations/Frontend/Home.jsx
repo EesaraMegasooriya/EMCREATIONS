@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Home.css";
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
-import Mypic from './me.jpg';
+import Mypic from '../src/assets/me.jpg';
 
 function Home() {
   const [text] = useTypewriter({

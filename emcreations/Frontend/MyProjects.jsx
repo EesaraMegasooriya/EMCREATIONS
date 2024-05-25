@@ -26,6 +26,7 @@ const projects = [
     imageUrl: 'https://i.ibb.co/Xfnsw9T/Screenshot-20240525-231039.png',
     link: 'https://travelme.example.com'
   },
+
   // Add more projects here
 ]
 
