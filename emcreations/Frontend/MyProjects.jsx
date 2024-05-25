@@ -12,19 +12,19 @@ const projects = [
     title: 'BOBBY',
     description: 'This is my first Android game, created in Kotlin, to learn user input responsiveness and data storage. It offers an interactive and educational experience.',
     imageUrl: 'https://i.ibb.co/TPS1gtP/Thiya.png',
-    link: 'https://bobby.example.com'
+    link: 'https://github.com/EesaraMegasooriya/Bobby'
   },
   {
     title: 'TeddyNotes',
     description: 'This Note app, implemented using Kotlin, is designed to help users learn and practice CRUD operations within a Kotlin application.',
     imageUrl: 'https://i.ibb.co/YWw44PZ/Screenshot-20240525-231520.png',
-    link: 'https://teddynotes.example.com'
+    link: 'https://github.com/EesaraMegasooriya/TeddyNotes'
   },
   {
     title: 'Travel Me',
     description: 'This Travel app, coded in Kotlin, is designed to explore modern UI/UX principles, offering an intuitive user experience.',
     imageUrl: 'https://i.ibb.co/Xfnsw9T/Screenshot-20240525-231039.png',
-    link: 'https://travelme.example.com'
+    link: 'https://github.com/EesaraMegasooriya/TravelMe'
   },
 
   // Add more projects here
