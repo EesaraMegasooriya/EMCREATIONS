@@ -47,6 +47,7 @@ function MyProjects() {
           </div>
         ))}
       </div>
+      
     </div>
   )
 }
