@@ -17,7 +17,7 @@ function Header() {
         </div>
         <div className="Headermaintextlogo">EMCREATIONS</div>
         <div className="Headerrightside">
-          <a href="#home">Home</a>
+          <a href="">Home</a>
           <a href="#about">About Us</a>
         </div>
         <div className="menu-icon" onClick={toggleMenu}>
