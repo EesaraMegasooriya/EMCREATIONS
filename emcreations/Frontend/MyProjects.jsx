@@ -1,5 +1,6 @@
-import React from 'react'
-import './MyProjects.css'
+// MyProjects.jsx
+import React from 'react';
+import './MyProjects.css';
 
 const projects = [
   {
@@ -26,9 +27,7 @@ const projects = [
     imageUrl: 'https://i.ibb.co/Xfnsw9T/Screenshot-20240525-231039.png',
     link: 'https://github.com/EesaraMegasooriya/TravelMe'
   },
-
-  // Add more projects here
-]
+];
 
 function MyProjects() {
   return (
@@ -60,7 +59,7 @@ function MyProjects() {
         </p>
       </div>
     </div>
-  )
+  );
 }
 
-export default MyProjects
+export default MyProjects;

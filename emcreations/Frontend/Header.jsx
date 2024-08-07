@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 import Logo from '../src/assets/E-tra.png';
 
@@ -17,16 +18,16 @@ function Header() {
         </div>
         <div className="Headermaintextlogo">EMCREATIONS</div>
         <div className="Headerrightside">
-          <a href="">Home</a>
-          <a href="#about">About Us</a>
+          <Link to="/">Home</Link>
+          <Link to="/about">About Us</Link>
         </div>
         <div className="menu-icon" onClick={toggleMenu}>
           ☰
         </div>
       </div>
       <div className={`slide-menu ${menuOpen ? 'open' : ''}`}>
-        <a href="#home" onClick={toggleMenu}>Home</a>
-        <a href="#about" onClick={toggleMenu}>About Us</a>
+        <Link to="/" onClick={toggleMenu}>Home</Link>
+        <Link to="/about" onClick={toggleMenu}>About Us</Link>
       </div>
     </div>
   );
