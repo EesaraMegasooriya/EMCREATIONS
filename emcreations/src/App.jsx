@@ -7,6 +7,7 @@ import MyProjects from '../Frontend/MyProjects';
 import Footer from '../Frontend/Footer';
 import AboutMe from '../Frontend/AboutMe';
 
+
 function App() {
   return (
     <Router>
@@ -18,6 +19,7 @@ function App() {
           <Route path="/EMCreations" element={<Home />} />
           <Route path="/EMCreations/projects" element={<MyProjects />} />
           <Route path="/about" element={<AboutMe />} />
+          
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />

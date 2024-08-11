@@ -66,7 +66,7 @@ function Home() {
         </div>
       </div>
       
-      <MyProjects /> {/* Include MyProjects within Home */}
+      <MyProjects /> 
     </div>
   );
 }

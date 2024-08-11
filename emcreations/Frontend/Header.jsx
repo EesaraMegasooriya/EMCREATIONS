@@ -16,10 +16,10 @@ function Header() {
         <div className="headerlogo">
           <img src={Logo} className='Headerlogoclass' alt="Logo" />
         </div>
-        <div className="Headermaintextlogo">EMCREATIONS</div>
+        <div className="Headermaintextlogo">EM CREATIONS</div>
         <div className="Headerrightside">
           <Link to="/">Home</Link>
-          <Link to="/about">About Us</Link>
+          <Link to="/about">About Me</Link>
         </div>
         <div className="menu-icon" onClick={toggleMenu}>
           ☰
