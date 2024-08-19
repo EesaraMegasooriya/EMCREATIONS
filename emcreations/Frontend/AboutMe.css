@@ -8,11 +8,14 @@ body {
 }
 
 .aboutptitle{
-    margin-top: 150px;
+  position:relative;
+
+    margin-top: -320px;
     margin-bottom: 50px;
-    font-size: 60px;
+    font-size: 100px;
     font-weight: 800;
-    color: white;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px #000;
     text-align: center;
 }
 
@@ -56,4 +59,29 @@ body {
   display: flex;
   justify-content: center;
   gap: 30px;
+}
+.banner {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover; /* Ensures the image covers the entire div */
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .banner {
+    width: 100%;
+    height: 200px; /* Adjust height for smaller screens */
+  }
+
+  .banner-image {
+    object-position: center; /* Keeps the center of the image in view on smaller screens */
+  }
 }

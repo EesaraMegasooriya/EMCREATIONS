@@ -1,7 +1,7 @@
 // AboutMe.jsx
 import React from 'react';
 import './AboutMe.css';
-// import Mybanner from '../src/assets/embanner.jpg';
+import Mybanner from '../src/assets/cropped.jpg';
 import Img1 from '../src/assets/imggal/img1.jpeg'
 import Img2 from '../src/assets/imggal/img2.jpeg'
 import Img3 from '../src/assets/imggal/img3.jpeg'
@@ -12,7 +12,10 @@ function AboutMe() {
     <div>
       
 
-      
+      <div className="banner">
+      <img src={Mybanner} alt="Banner" className="banner-image" />
+    </div>
+
       <div className="aboutptitle">About Me</div>
 
       <div className="aboutmecontainer">
